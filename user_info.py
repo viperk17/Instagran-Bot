@@ -1,2 +1,2 @@
 username = "viper_k17"
-pw = "password"
+pw = "enter your password"
