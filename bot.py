@@ -36,6 +36,7 @@ class InstaBot:
         not_following_back = [user for user in following if user not in followers]
         print(not_following_back)
 
+        
 #     def _get_names(self):
 #         sleep(2)
 #         sugs = self.driver.find_element_by_xpath('//h4[contains(text(), Suggestions)]')
