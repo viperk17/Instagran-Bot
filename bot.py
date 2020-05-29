@@ -19,9 +19,9 @@ class InstaBot:
         self.driver.find_element_by_xpath('//button[@type="submit"]')\
             .click()
         sleep(4)
-        # self.driver.find_element_by_xpath("//*[@id='react-root']/section/main/div/div/div/div/button")\
-        #     .click()
-        # sleep(2)
+        self.driver.find_element_by_xpath("//*[@id='react-root']/section/main/div/div/div/div/button")\
+            .click()
+        sleep(2)
 
     def _unfollowers(self):
         self.driver.find_element_by_xpath("//a[contains(@href,'/{}')]".format(self.username))\
